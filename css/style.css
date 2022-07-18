@@ -48,3 +48,54 @@ nav{
     height: 50px;
     background-color: brown;
 }
+
+header{
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+header h1{
+    text-align: left;
+    font-size: 3em;
+    padding-top: 30px;
+}
+
+.container .flex{
+    padding-top: 20px;
+}
+
+.container .flex div p{
+    padding-top: 10px;
+}
+
+.container .flex div button{
+    margin-top: 10px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container div:last-child{
+    width: 100%;
+}
+
+.container div img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flex div:first-child{
+    flex-basis: 40%;
+}
+
+.flex div:last-child{
+    flex-grow: 1;
+}
+
