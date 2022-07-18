@@ -144,3 +144,19 @@ section:nth-child(3){
 #section-dx{
     flex-shrink: 30%;
 }
+
+#container-4-section-sx{
+    flex-basis: 70%;
+}
+
+#container-4-section-sx img{
+    width: 100%;
+}
+
+#container-4-section-dx{
+   flex-basis: 30%;
+} 
+
+.gap{
+    gap: 30px;
+}
