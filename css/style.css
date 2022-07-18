@@ -29,8 +29,31 @@
     gap: 20px;
 }
 
+.bordi > *:not(span){
+    margin-left: 20px;
+}
+
+/* .bordi > button{
+    margin-left: 0;
+} */
+
 .gap{
     gap: 30px;
+}
+
+button{
+    color: #fdfcff;
+    background-color: #0061ff;
+    padding: 5px 10px;
+    border: 0;
+}
+
+.center-bottom{
+    width: 80%;
+}
+
+.padding-bottom{
+    padding-bottom: 20px;
 }
 
 /* classi comuni */
@@ -51,11 +74,10 @@ nav div ul li a{
     color: #626262;
 }
 
-nav div ul li button{
+/* nav div ul li button{
     width: 70px;
     height: 30px;
-    background-color: blueviolet;
-}
+} */
 
 a{
     text-decoration: none;
@@ -77,7 +99,7 @@ nav{
     content: "";
     width: 100%;
     height: 50px;
-    background-color: brown;
+    background-color: #ffffff;
 }
 
 header{
@@ -116,12 +138,20 @@ header .container .flex div:last-child{
     flex-grow: 1;
 }
 
-main .width-section *{
+main .width-section * :not(button){
     padding-top: 20px;
+}
+
+main .width-section button{
+    margin-top: 20px;
 }
 
 main .width-section form label{
     margin-right: 30px;
+}
+
+#business{
+    padding-top: 20px;
 }
 
 section:nth-child(2){
@@ -145,10 +175,12 @@ section:nth-child(3){
 }
 
 #section-sx{
+    padding-top: 0;
     flex-basis: 70%;
 }
 
 #section-dx{
+    padding-top: 0;
     flex-shrink: 30%;
 }
 
