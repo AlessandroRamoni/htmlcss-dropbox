@@ -60,6 +60,11 @@ header h1{
     padding-top: 30px;
 }
 
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .container .flex{
     padding-top: 20px;
 }
@@ -70,11 +75,6 @@ header h1{
 
 .container .flex div button{
     margin-top: 10px;
-}
-
-.container{
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .container div:last-child{
@@ -91,11 +91,23 @@ header h1{
     justify-content: center;
 }
 
-.flex div:first-child{
+header .container .flex div:first-child{
     flex-basis: 40%;
 }
 
-.flex div:last-child{
+header .container .flex div:last-child{
     flex-grow: 1;
 }
 
+.width-section{
+    max-width: 600px;
+    margin: 0 auto;    
+}
+
+main .width-section *{
+    padding-top: 20px;
+}
+
+main .width-section form label{
+    margin-right: 30px;
+}
