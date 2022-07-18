@@ -100,7 +100,7 @@ header .container .flex div:last-child{
 }
 
 .width-section{
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;    
 }
 
@@ -110,4 +110,21 @@ main .width-section *{
 
 main .width-section form label{
     margin-right: 30px;
+}
+
+.bordi{
+    border: 2px solid #ececed;
+    gap: 20px;
+}
+
+.bordi > span {
+    /* display: inline-block;
+    width: 100%; */
+    /* height: 30px; */
+    border-bottom: 2px solid #ececed;
+    text-align: center;
+}
+
+main .flex > *{
+    gap: 20px;
 }
