@@ -357,3 +357,36 @@ hr{
     display: table;
     content: "";
 }
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer div ul li ul{
+    padding-top: 20px;
+}
+
+footer ul li ul li{
+    padding-top: 10px;
+}
+
+footer div ul li ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#closing-line{
+    width: 10%;
+    margin-left: 0;
+}
+
+#scelta{
+    background-color: #000000;
+    color: #ffffff;
+    border: 0;
+}
