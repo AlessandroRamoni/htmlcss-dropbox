@@ -63,7 +63,11 @@ button{
 }
 
 .padding-top{
-    padding-top: 40px;
+    padding-top: 50px;
+}
+
+.margin-top{
+    margin-top: 50px;
 }
 
 .card{
@@ -77,6 +81,7 @@ button{
 .box{
     width: 230px;
     height: 230px;
+    position: relative;
 }
 
 /* classi comuni */
@@ -247,6 +252,7 @@ section:nth-child(3){
 
 article{
     width: 100%;
+    margin-top: 50px;
 }
 
 #designit{
@@ -260,6 +266,21 @@ article{
 #designit-big{
     background-color: #f5f5f5;
     flex-grow: 1;
+}
+
+#designit-big img{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.box blockquote{
+    padding: 10px 20px;
+    margin-top: -70px;
+}
+
+.box > p{
+    padding-left: 20px;
 }
 
 #wbr{
@@ -297,6 +318,14 @@ article{
     padding-top: 90px;
 }
 
+.box img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #button-box{
     margin-top: 0;
 }
@@ -306,3 +335,10 @@ article{
 }
 /* box colorati */
 
+hr{
+    padding: 0 !important;
+}
+
+.faq > *{
+    padding: 30px 30px 40px 0;
+}
