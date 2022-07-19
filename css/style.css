@@ -342,3 +342,18 @@ hr{
 .faq > *{
     padding: 30px 30px 40px 0;
 }
+
+.float h5{
+    float: left;
+}
+
+.float span{
+    float: right;
+    padding: 0 !important;
+}
+
+.float::after{
+    clear: both;
+    display: table;
+    content: "";
+}
