@@ -16,7 +16,7 @@
 
 .flex{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .width-section{
@@ -26,7 +26,7 @@
 
 .bordi{
     border: 2px solid #ececed;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .bordi > *:not(span){
@@ -64,12 +64,23 @@ button{
     width: 100%;
 }
 
+.box{
+    width: 200px;
+    height: 200px;
+}
+
 /* classi comuni */
 
 ul{
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 nav div ul li{
@@ -110,6 +121,7 @@ nav{
 header{
     width: 100%;
     background-color: #b4d0e7;
+    padding-top: 50px;
 }
 
 header h1{
@@ -209,3 +221,38 @@ section:nth-child(3){
     padding-top: 50px;
 }
 
+
+
+/* box colorati */
+
+.flex-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    width: 100%;
+}
+
+#designit{
+    background-color: #a2d39b;
+}
+
+#asu{
+    background-color: #61082b;
+}
+
+#designit-big{
+    background-color: #f5f5f5;
+}
+
+#wbr{
+    background-color: #d5001f;
+}
+
+#hearst{
+    background-color: #b4d0e7;
+}
+
+
+/* box colorati */
