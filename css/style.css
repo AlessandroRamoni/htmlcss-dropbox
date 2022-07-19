@@ -39,10 +39,6 @@
     margin-left: 20px;
 }
 
-/* .bordi > button{
-    margin-left: 0;
-} */
-
 .gap{
     gap: 30px;
 }
@@ -52,6 +48,7 @@ button{
     background-color: #0061ff;
     padding: 5px 10px;
     border: 0;
+    cursor: pointer;
 }
 
 .center-bottom{
@@ -104,15 +101,18 @@ nav div ul li{
     vertical-align: middle;
 }
 
+nav div ul li:hover :not(button){
+    border-bottom: 1px solid #626262;
+}
+
+/* nav div ul li:hover :not(img){
+    border-bottom: 1px solid #626262;
+}  */
+
 nav div ul li a{
     color: #626262;
     text-decoration: none;
 }
-
-/* nav div ul li button{
-    width: 70px;
-    height: 30px;
-} */
 
 #navsx{
     float: left;
