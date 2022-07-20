@@ -124,6 +124,10 @@ h5{
     margin-bottom: 60px;
 }
 
+.hidden{
+    display: none;
+}
+
 /* CLASSI COMUNI */
 
 ul{
@@ -450,8 +454,14 @@ hr{
     padding: 0 !important;
 }
 
+/* FAQ */
+
 .faq > *{
     padding: 30px 30px 40px 0;
+}
+
+.float{
+    cursor: pointer;
 }
 
 .float h5{
@@ -468,6 +478,16 @@ hr{
     display: table;
     content: "";
 }
+
+.float span i{
+    cursor: pointer;
+}
+
+.float:hover + .hidden{
+    display: block;
+}
+
+/* FAQ */
 
 
 /* FOOTER */
