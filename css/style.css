@@ -5,6 +5,11 @@
 }
 
 /* classi comuni*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container{
     max-width: 800px;
     margin: 0 auto;
@@ -39,6 +44,14 @@
     margin-left: 20px;
 }
 
+.bordi > p{
+    margin-left: 30px;
+}
+
+.bordi p > i{
+    margin-left: -15px;
+}
+
 .gap{
     gap: 30px;
 }
@@ -47,9 +60,9 @@ button{
     color: #fdfcff;
     background-color: #0061ff;
     padding: 5px 10px;
+    font-size: small;
     border: 0;
     cursor: pointer;
-    transition: 1s linear;
 }
 
 button:hover{
@@ -91,6 +104,12 @@ button:hover{
     border: 8px solid rgb(97, 197, 243);
 }
 
+#more-padding h2, #more-padding a{
+    padding-bottom: 50px;
+}
+
+
+
 /* classi comuni */
 
 ul{
@@ -114,10 +133,6 @@ nav div ul li{
 nav div ul li:hover :not(button){
     border-bottom: 1px solid #626262;
 }
-
-/* nav div ul li:hover :not(img){
-    border-bottom: 1px solid #626262;
-}  */
 
 nav div ul li a{
     color: #626262;
@@ -153,6 +168,11 @@ header h1{
     text-align: left;
     font-size: 3em;
     padding-top: 30px;
+}
+
+#arrow-down{
+    padding-top: 50px;
+    font-size: 3em;
 }
 
 .container .flex div p{
@@ -192,8 +212,18 @@ main .width-section form label{
     margin-right: 30px;
 }
 
+.bordi > span{
+    color: #0d0d0d;
+    line-height: 50px;
+    padding-top: 0 !important;
+}
+
 #business{
-    padding-top: 20px;
+    padding-top: 60px;
+}
+
+#business form{
+    padding-top: 60px;
 }
 
 section:nth-child(2){
@@ -278,10 +308,15 @@ article{
     flex-grow: 1;
 }
 
+#designit-big:hover{
+   border: 0;
+} 
+
 #designit-big img{
     position: absolute;
     top: 50%;
     left: 30%;
+    filter: contrast(100%);
 }
 
 .box blockquote{
@@ -314,6 +349,14 @@ article{
     flex-grow: 1;
 }
 
+#designit-big-2:hover{
+    border: 0;
+} 
+
+blockquote p{
+    overflow: auto;
+}
+
 #lonely-planet{
     background-color: #0d2481;
 }
@@ -328,12 +371,17 @@ article{
     padding-top: 90px;
 }
 
+#prova-gratuita:hover{
+    border: 0;
+}
+
 .box img{
     width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert();
 }
 
 #button-box{
@@ -377,6 +425,7 @@ footer{
     color: #ffffff;
 }
 
+
 footer div ul li ul{
     padding-top: 20px;
 }
@@ -399,4 +448,8 @@ footer div ul li ul li a{
     background-color: #000000;
     color: #ffffff;
     border: 0;
+}
+
+footer .container form select{
+    width: 90px;
 }
