@@ -49,6 +49,12 @@ button{
     padding: 5px 10px;
     border: 0;
     cursor: pointer;
+    transition: 1s linear;
+}
+
+button:hover{
+    background-color:  #609af7;
+    transform: scale(1.1);
 }
 
 .center-bottom{
