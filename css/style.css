@@ -184,9 +184,9 @@ header h1{
     padding-top: 30px;
 }
 
-#arrow-down{
-    padding-top: 50px;
-    font-size: 3em;
+header .flex div p a{
+    text-decoration: none;
+    color: #0d0d0d;
 }
 
 .container .flex div p{
@@ -214,10 +214,14 @@ header .container .flex div:last-child{
     flex-grow: 1;
 }
 
+#arrow-down{
+    padding-top: 40px;
+    font-size: 3em;
+}
 
 #jumboimg{
     position: relative;
-    top: 110px;
+    top: 0;
 }
 
 main section i{
@@ -474,6 +478,9 @@ footer{
     color: #ffffff;
 }
 
+footer div ul li{
+    font-size: 0.8em;
+}
 
 footer div ul li ul{
     padding-top: 20px;
