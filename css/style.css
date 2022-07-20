@@ -53,7 +53,7 @@ button{
 }
 
 button:hover{
-    background-color:  #609af7;
+    background-color:  #2e7dfc;
     transform: scale(1.1);
 }
 
@@ -85,6 +85,10 @@ button:hover{
     width: 230px;
     height: 230px;
     position: relative;
+}
+
+.box:hover{
+    border: 8px solid rgb(97, 197, 243);
 }
 
 /* classi comuni */
