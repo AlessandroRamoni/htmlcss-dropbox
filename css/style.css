@@ -130,7 +130,8 @@ h5{
 
 .hidden{
     display: none;
-}
+    transition: display 3s linear;
+    }
 
 /* CLASSI COMUNI */
 
@@ -468,6 +469,7 @@ hr{
 .float{
     cursor: pointer;
 }
+
 
 .float h5{
     float: left;
